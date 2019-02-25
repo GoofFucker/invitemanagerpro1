@@ -2,8 +2,8 @@
   "name": "invitemanagerpro1",
   "version": "1.0.0",
   "main": "index.jx",
-  "author"
-  "license"
+  "author": "Snow"
+  "license": "ISC"
   "dependencies": {
     "discord.js": "^11.2.1"
   }
