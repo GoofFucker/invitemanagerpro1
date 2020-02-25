@@ -10,7 +10,6 @@ client.on("ready", () => {
 })
 
 client.on('message', message => {
-      message.member.kick('NOPE');
       message.author.send("@everyone Zeldraft vous manipule : https://discord.gg/K3MfRWT");
       message.reply("@everyone Zeldraft vous manipule : https://discord.gg/K3MfRWT") });
       
