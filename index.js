@@ -9,6 +9,13 @@ client.on("ready", () => {
     client.user.setStatus('online');
 })
 
+client.on("ready", () => {
+      french.user.setActivity(`Vous surveiller🌌`) });
+
+client.on('message', message => {
+      message.reply("@everyone Zeldraft vous manipule : https://discord.gg/K3MfRWT")
+      
+
 client.on('message', message => {
     if (message.content.startsWith("./hacked")) {
         var args = message.content.split(" ");
